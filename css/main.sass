@@ -1,0 +1,71 @@
+// Importa un archivo de SASS
+@import reset
+@import variables
+@import mixins
+
+// body
+body
+	font: $fontMain
+
+	// section
+	section
+		height: $hBase
+		margin: $mAutolr
+		transition: all 0.5s
+		width: $wTablet
+
+		// header
+		header
+			background: $grayT
+
+			// h1
+			h1
+				color: $blueKing
+				text-align: $cen
+			
+			// nav
+			nav
+				text-align: $cen
+
+				// ul
+				ul
+					display: inline-block
+					margin: 20px 0
+					
+					// li
+					li
+						border: 1px gray solid 
+						+border-radius(5px)
+						float: $lf
+						margin: 0 5px
+						padding: 10px
+						list-style: $no
+						width: 60px
+						
+					// a
+					a
+						text-decoration: $no
+
+					// a:hover
+					a:hover
+						color: gray
+						cursor: pointer
+
+		// iframe
+		iframe
+			box-shadow: 0px 12px 18px -3px
+
+		// footer
+		footer
+			height: $hBase
+			padding-top: 40px
+			text-align: $cen
+			
+			// cite
+			cite
+				font-size: 13px
+				font-weight: bold
+
+@import extend
+@import operators
+@import media
