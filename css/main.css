@@ -50,13 +50,13 @@ body {
   font-size: 20px; }
 
 .home:hover {
-  color: blue; }
+  color: green; }
 
 .about:hover {
   color: yellow; }
 
 .contact:hover {
-  color: red; }
+  color: orange; }
 
 @media (max-width: 965px) {
   section {
